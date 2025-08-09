@@ -1,7 +1,6 @@
 package net.chemthunder.amaranthine.init;
 
 import net.chemthunder.amaranthine.Amaranthine;
-import net.chemthunder.amaranthine.effect.DisorientatedEffect;
 import net.chemthunder.amaranthine.effect.FracturedEffect;
 import net.chemthunder.amaranthine.effect.InsanityEffect;
 import net.minecraft.entity.effect.StatusEffect;
@@ -11,7 +10,6 @@ import net.minecraft.registry.entry.RegistryEntry;
 
 public interface ModStatusEffects {
     RegistryEntry<StatusEffect> FRACTURED = create("fractured", new FracturedEffect());
-    RegistryEntry<StatusEffect> DISORIENTATED = create("disorientated", new DisorientatedEffect());
     RegistryEntry<StatusEffect> INSANITY = create("insanity", new InsanityEffect());
 
 

@@ -1,6 +1,5 @@
 package net.chemthunder.amaranthine.effect;
 
-import net.chemthunder.amaranthine.init.ModSounds;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
@@ -14,7 +13,7 @@ public class InsanityEffect extends StatusEffect {
     }
 
     public boolean applyUpdateEffect(ServerWorld world, LivingEntity player, int amplifier) {
-        player.playSound(ModSounds.INSANITY_VOICES);
+
         return super.applyUpdateEffect(world, player, amplifier);
     }
 

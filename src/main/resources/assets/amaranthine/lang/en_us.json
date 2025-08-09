@@ -1,13 +1,12 @@
 {
      "item.amaranthine.amaranthine_greatsword": "Amaranthine Greatsword",
+
      "item.amaranthine.amaranthine_shard": "Amaranthine Shard",
-     "item.amaranthine.amaranthine_cleaver": "Mortician's Cleaver",
+
+     "item.amaranthine.amaranthine_cleaver": "Amaranthine Cleaver",
 
      "item.amaranthine.blind_obedience": "Blind Obedience",
      "item.amaranthine.blind_obedience.desc": "A fragmented dream of a former monarch.",
-
-     "item.amaranthine.dawns_light": "Dawn's Light",
-     "item.amaranthine.dawn.desc": "The true harnessed power of the sun.",
 
      "item.amaranthine.chem_cookie": "Chem Cookie",
 
@@ -16,16 +15,14 @@
      "item.amaranthine.chrysaor": "Chrysaor",
      "item.amaranthine.chrysaor.desc": "The true extent of Amaranthine Weaponry.",
 
-     "item.amaranthine.apollo": "Apollo",
-     "item.amaranthine.apollo.desc": "WITNESS THE TRUE POWER OF AMARANTHINE, CRYSTAL OF THE SUN.",
-
      "item.amaranthine.arc_cookie": "Arc Cookie",
      "item.amaranthine.arc_cookie_breeze": "Arc Cookie",
+
+     "block.amaranthine.amaranthine_block": "Amaranthine Block",
 
      "item.amaranthine.captains_cutlass": "Captain's Cutlass",
 
      "effect.amaranthine.fractured": "Impaled",
-     "effect.amaranthine.disorientated": "Disorientated",
      "effect.amaranthine.insanity": "Insanity",
 
      "death.attack.impaled": "%1$s was impaled with crystals",
@@ -61,5 +58,7 @@
      "advancement.amaranthine.root.desc": "Valiance, Armory, Harmony",
 
      "advancement.amaranthine.sniffing": "You shouldn't be eating that...",
-     "advancement.amaranthine.sniffing.desc": "Consume some Amaranthine Dust, now rethink what you've done"
+     "advancement.amaranthine.sniffing.desc": "Consume some Amaranthine Dust, now rethink what you've done",
+
+     "amaranthine.subtitles.ambient.insanity_voices": "Voices of the Angels"
 }

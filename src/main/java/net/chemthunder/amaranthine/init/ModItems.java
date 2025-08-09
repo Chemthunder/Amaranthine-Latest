@@ -82,18 +82,11 @@ public interface ModItems {
     );
 
 
-    Item DAWNS_LIGHT = create("dawns_light", DawnsItem::new, new Item.Settings()
-            .maxCount(1)
-            .maxDamage(1)
-    );
-
-
     Item IRRADIATED_AMARANTHINE_SHARD = create("irradiated_amaranthine_shard", IrradiatedItem::new, new Item.Settings()
             .maxCount(1)
                     .rarity(Rarity.UNCOMMON)
             );
-
-
+  
     static Item create(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
         return Items.register(RegistryKey.of(RegistryKeys.ITEM, Amaranthine.id(name)), factory, settings);
     }
@@ -106,8 +99,6 @@ public interface ModItems {
         modifyItemNameColor(CHRYSAOR, 0xA008D8);
         modifyItemNameColor(BLIND_OBEDIENCE, 0x0a0a0a);
         modifyItemNameColor(CAPTAINS_CUTLASS, 0x93E9BE);
-        modifyItemNameColor(DAWNS_LIGHT, 0xFEF268);
-
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addCombatEntries);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addIngredientEntries);
@@ -121,7 +112,6 @@ public interface ModItems {
         entries.add(CHRYSAOR);
         entries.add(AMARANTHINE_CLEAVER);
         entries.add(CAPTAINS_CUTLASS);
-
     }
 
 

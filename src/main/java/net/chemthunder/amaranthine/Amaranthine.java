@@ -1,5 +1,6 @@
 package net.chemthunder.amaranthine;
 
+import net.chemthunder.amaranthine.init.ModBlocks;
 import net.chemthunder.amaranthine.init.ModItems;
 import net.chemthunder.amaranthine.init.ModSounds;
 import net.chemthunder.amaranthine.init.ModStatusEffects;
@@ -18,6 +19,8 @@ public class Amaranthine implements ModInitializer {
         ModSounds.init();
 
         ModStatusEffects.init();
+
+        ModBlocks.init();
 
 	}
 

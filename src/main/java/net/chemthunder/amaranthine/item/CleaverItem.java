@@ -36,12 +36,4 @@ public class CleaverItem extends Item implements CustomHitParticleItem {
             );
         }
     }
-
-    @Override
-    public void postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-
-        target.addStatusEffect(new StatusEffectInstance(ModStatusEffects.DISORIENTATED, 200, 0));
-
-        super.postHit(stack, target, attacker);
-    }
 }
