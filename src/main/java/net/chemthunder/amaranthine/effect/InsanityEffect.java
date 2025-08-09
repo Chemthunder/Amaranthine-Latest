@@ -9,7 +9,7 @@ import net.minecraft.server.world.ServerWorld;
 
 public class InsanityEffect extends StatusEffect {
     public InsanityEffect() {
-        super(StatusEffectCategory.HARMFUL, 0xE142FD);
+        super(StatusEffectCategory.HARMFUL, 0x695200);
     }
 
     public boolean applyUpdateEffect(ServerWorld world, LivingEntity player, int amplifier) {
