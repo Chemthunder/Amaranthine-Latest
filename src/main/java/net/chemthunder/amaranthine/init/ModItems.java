@@ -25,7 +25,7 @@ public interface ModItems {
             .fireproof()
     );
 
-    Item AMARANTHINE_SHARD = create("amaranthine_shard", Item::new, new Item.Settings()
+    Item AMARANTHINE_SHARD = create("amaranthine_shard", AmaranthineItem::new, new Item.Settings()
             .fireproof()
     );
 

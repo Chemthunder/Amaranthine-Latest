@@ -14,8 +14,10 @@ public class Amaranthine implements ModInitializer {
 
 	public void onInitialize() {
         ModItems.init();
-		ModStatusEffects.init();
+
         ModSounds.init();
+
+        ModStatusEffects.init();
 
 	}
 

@@ -11,6 +11,8 @@
 
      "item.amaranthine.chem_cookie": "Chem Cookie",
 
+     "item.amaranthine.irradiated_amaranthine_shard": "Irradiated Amaranthine Shard",
+
      "item.amaranthine.chrysaor": "Chrysaor",
      "item.amaranthine.chrysaor.desc": "The true extent of Amaranthine Weaponry.",
 
@@ -24,6 +26,7 @@
 
      "effect.amaranthine.fractured": "Impaled",
      "effect.amaranthine.disorientated": "Disorientated",
+     "effect.amaranthine.insanity": "Insanity",
 
      "death.attack.impaled": "%1$s was impaled with crystals",
      "death.attack.impaled.player": "%1$s was impaled with crystals by %2$s",
