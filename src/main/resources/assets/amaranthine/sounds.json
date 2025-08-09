@@ -1,0 +1,8 @@
+{
+     "ambient.insanity_voices": {
+          "sounds": [
+               "amaranthine:ambient/insanity_voices"
+          ],
+          "subtitle": "amaranthine.subtitles.ambient.insanity_voices"
+     }
+}

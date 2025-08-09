@@ -1,8 +1,0 @@
-{
-     "entity.insanity_voices": {
-          "sounds": [
-               "amaranthine:entity/insanity_voices"
-          ],
-          "subtitle": "amaranthine.subtitles.entity.insanity_voices"
-     }
-}

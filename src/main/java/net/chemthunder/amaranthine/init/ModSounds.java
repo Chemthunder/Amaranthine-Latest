@@ -12,7 +12,7 @@ import java.util.Map;
 public interface ModSounds {
     Map<SoundEvent, Identifier> SOUNDS = new LinkedHashMap<>();
 
-    SoundEvent INSANITY_VOICES = create("entity.insanity_voices");
+    SoundEvent INSANITY_VOICES = create("ambient.insanity_voices");
 
     private static SoundEvent create(String name) {
         SoundEvent soundEvent = SoundEvent.of(Amaranthine.id(name));

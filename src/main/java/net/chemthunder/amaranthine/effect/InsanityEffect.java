@@ -12,12 +12,14 @@ public class InsanityEffect extends StatusEffect {
     }
 
     public boolean applyUpdateEffect(ServerWorld world, LivingEntity entity, int amplifier) {
-      entity.playSound(ModSounds.INSANITY_VOICES, 5, 0);
+      entity.playSound(ModSounds.INSANITY_VOICES, 500, 0);
         return super.applyUpdateEffect(world, entity, amplifier);
     }
 
     public boolean canApplyUpdateEffect(int duration, int amplifier) {
-        int i = 20;
+        int i = 50;
         return duration % i == 0;
-    }
-}
+    }}
+
+
+//
