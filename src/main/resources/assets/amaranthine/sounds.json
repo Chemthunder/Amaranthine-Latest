@@ -4,5 +4,12 @@
                "amaranthine:ambient/insanity_voices"
           ],
           "subtitle": "amaranthine.subtitles.ambient.insanity_voices"
+     },
+
+     "music.butcher_vanity_overcooked": {
+          "sounds": [
+               "amaranthine:music/butcher_vanity_overcooked"
+          ],
+          "subtitle": "amaranthine.subtitles.music.butcher_vanity_overcooked"
      }
 }

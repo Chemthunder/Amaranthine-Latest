@@ -47,16 +47,4 @@ public abstract class PlayerEntityMixin extends LivingEntity {
 
         }
     }
-
-    private void tiltTargetOnCrit(Entity target, CallbackInfo ci) {
-        PlayerEntity player = (PlayerEntity)(Object)this;
-        ItemStack stack = this.getStackInHand(Hand.MAIN_HAND);
-        if (stack.getItem() instanceof CleaverItem item) {
-            if (target instanceof LivingEntity living) {
-                living.tiltScreen(5, 5);
-            }
-
-
-        }
-    }
 }
