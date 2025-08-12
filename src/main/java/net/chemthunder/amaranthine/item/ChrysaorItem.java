@@ -29,7 +29,6 @@ public class ChrysaorItem extends Item implements CustomHitParticleItem, KillEff
     }
 
 
-
     public static final SweepParticleEffect[] EFFECTS = new SweepParticleEffect[]{new SweepParticleEffect(0xd9a3ff, 0xbe63ff), new SweepParticleEffect(0x602a87, 0x4a2763)};
 
     public void spawnHitParticles(PlayerEntity player) {

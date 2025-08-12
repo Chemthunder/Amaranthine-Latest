@@ -21,6 +21,8 @@ public interface ModBlocks {
                 );
 
 
+
+
     // Create and Register always
     static Block create(String name, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
         return Blocks.register(RegistryKey.of(RegistryKeys.BLOCK, Amaranthine.id(name)), factory, settings);

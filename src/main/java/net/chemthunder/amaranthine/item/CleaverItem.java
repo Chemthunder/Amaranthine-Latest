@@ -2,6 +2,8 @@ package net.chemthunder.amaranthine.item;
 
 import net.acoyt.acornlib.client.particle.SweepParticleEffect;
 import net.acoyt.acornlib.item.CustomHitParticleItem;
+import net.acoyt.acornlib.item.KillEffectItem;
+import net.chemthunder.amaranthine.init.ModSounds;
 import net.chemthunder.amaranthine.init.ModStatusEffects;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;

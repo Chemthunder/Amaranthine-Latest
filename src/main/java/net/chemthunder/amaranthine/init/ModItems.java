@@ -60,7 +60,7 @@ public interface ModItems {
     );
 
     Item AMARANTHINE_CLEAVER = create("amaranthine_cleaver", CleaverItem::new, new Item.Settings()
-            .axe(ToolMaterial.NETHERITE, 3.5f, -2.5f)
+            .axe(ToolMaterial.NETHERITE, 3.0f, -2.5f)
             .rarity(Rarity.COMMON)
             .fireproof()
     );
@@ -87,8 +87,6 @@ public interface ModItems {
                     .rarity(Rarity.UNCOMMON)
             );
 
-    Item BUTCHER_DISC = create("butcher_disc", ButcherDisc::new, new Item.Settings()
-            .maxCount(1));
 
     static Item create(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
         return Items.register(RegistryKey.of(RegistryKeys.ITEM, Amaranthine.id(name)), factory, settings);

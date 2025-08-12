@@ -11,5 +11,12 @@
                "amaranthine:music/butcher_vanity_overcooked"
           ],
           "subtitle": "amaranthine.subtitles.music.butcher_vanity_overcooked"
+     },
+
+     "item.cleaver_kill": {
+          "sounds": [
+               "amaranthine:item/cleaver"
+          ],
+          "subtitle": "amaranthine.subtitles.item.cleaver_kill"
      }
 }
