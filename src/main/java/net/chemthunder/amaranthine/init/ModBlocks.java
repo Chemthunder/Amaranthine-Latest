@@ -46,10 +46,6 @@ public interface ModBlocks {
     }
 
     static void init() {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModBlocks::addNaturalEntries);
     }
 
-    private static void addNaturalEntries(FabricItemGroupEntries entries) {
-        entries.add(AMARANTHINE_BLOCK);
-    }
 }

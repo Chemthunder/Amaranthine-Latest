@@ -55,5 +55,8 @@
      "advancement.amaranthine.sniffing": "You shouldn't be eating that...",
      "advancement.amaranthine.sniffing.desc": "Consume some Amaranthine Dust, now rethink what you've done",
 
-     "amaranthine.subtitles.ambient.insanity_voices": "Voices of the Angels"
+     "amaranthine.subtitles.ambient.insanity_voices": "Voices of the Angels",
+
+
+     "itemGroup.amaranthine": "Amaranthine"
 }

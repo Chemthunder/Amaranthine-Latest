@@ -109,10 +109,7 @@ public interface ModItems {
     }
 
     private static void addCombatEntries(FabricItemGroupEntries entries) {
-        entries.add(AMARANTHINE_GREATSWORD);
-        entries.add(CHRYSAOR);
-        entries.add(AMARANTHINE_CLEAVER);
-        entries.add(CAPTAINS_CUTLASS);
+
     }
 
 
@@ -121,16 +118,10 @@ public interface ModItems {
     }
 
     private static void addIngredientEntries(FabricItemGroupEntries entries) {
-        entries.add(AMARANTHINE_SHARD);
-        entries.add(AMARANTHINE_DUST);
-        entries.add(IRRADIATED_AMARANTHINE_SHARD);
+
     }
 
     private static void addFoodEntries(FabricItemGroupEntries entries) {
-        entries.add(CHEM_COOKIE);
-        entries.add(ARC_COOKIE);
-        entries.add(ARC_COOKIE_BREEZE);
-        entries.add(INKWELL_COOKIE);
-        entries.add(INTEL_COOKIE);
+
     }
 }
