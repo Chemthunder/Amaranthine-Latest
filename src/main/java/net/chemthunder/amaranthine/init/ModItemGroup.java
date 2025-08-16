@@ -16,7 +16,7 @@ public interface ModItemGroup {
     RegistryKey<ItemGroup> GROUP_KEY = RegistryKey.of(RegistryKeys.ITEM_GROUP, Amaranthine.id("amaranthine"));
     ItemGroup ITEM_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModItems.AMARANTHINE_SHARD))
-            .displayName(Text.translatable("itemGroup.amaranthine").styled(style -> style.withColor(0xffc778)))
+            .displayName(Text.translatable("itemGroup.amaranthine").styled(style -> style.withColor(0x3b1847)))
             .build();
 
     static void init() {
