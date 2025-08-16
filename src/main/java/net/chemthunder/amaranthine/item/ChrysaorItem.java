@@ -62,7 +62,7 @@ public class ChrysaorItem extends Item implements CustomHitParticleItem, KillEff
     }
 
     public void postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-
+        attacker.playSound(SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME);
     }
 
 
