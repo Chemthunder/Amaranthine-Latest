@@ -2,9 +2,16 @@ package net.chemthunder.amaranthine.item;
 
 import net.acoyt.acornlib.client.particle.SweepParticleEffect;
 import net.acoyt.acornlib.item.CustomHitParticleItem;
+import net.chemthunder.amaranthine.init.ModItems;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemUsageContext;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
@@ -30,5 +37,25 @@ public class AmaranthineGreatswordItem extends Item implements CustomHitParticle
                     0, deltaX, 0.0F, deltaZ, 0.0F
             );
         }
+    }
+
+
+    @Override
+    public ActionResult useOnBlock(ItemUsageContext context) {
+
+        BlockState state = context.getWorld().getBlockState(context.getBlockPos());
+        PlayerEntity user = context.getPlayer();
+        if (user != null && user.isSneaking() && state.isOf(Blocks.AMETHYST_CLUSTER)) {
+            ItemStack stack = user.getMainHandStack();
+            if (stack.isOf(ModItems.AMARANTHINE_GREATSWORD)) {
+                stack.decrement(1);
+                user.giveItemStack(ModItems.CHRYSAOR.getDefaultStack());
+                user.playSound(SoundEvents.BLOCK_BEACON_ACTIVATE, 0.8F, 1.0F);
+            }
+            return ActionResult.SUCCESS;
+        }
+
+
+        return super.useOnBlock(context);
     }
 }
