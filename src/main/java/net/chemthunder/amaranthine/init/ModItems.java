@@ -67,6 +67,7 @@ public interface ModItems {
 
     Item AMARANTHINE_DUST = create("amaranthine_dust", Item::new, new Item.Settings()
             .food(new FoodComponent.Builder()
+
                     .alwaysEdible()
                     .build()));
 
@@ -94,34 +95,11 @@ public interface ModItems {
 
     static void init() {
         modifyItemNameColor(AMARANTHINE_CLEAVER, 0x90403e);
-        modifyItemNameColor(AMARANTHINE_GREATSWORD, 0xAE8448);
+        modifyItemNameColor(AMARANTHINE_GREATSWORD, 0xf3dd1e);
         modifyItemNameColor(AMARANTHINE_SHARD, 0xE29242);
         modifyItemNameColor(AMARANTHINE_DUST, 0x985DCE);
         modifyItemNameColor(CHRYSAOR, 0xA008D8);
         modifyItemNameColor(BLIND_OBEDIENCE, 0x0a0a0a);
         modifyItemNameColor(CAPTAINS_CUTLASS, 0x93E9BE);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addCombatEntries);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addIngredientEntries);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addFoodEntries);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addToolsEntries);
-
-    }
-
-    private static void addCombatEntries(FabricItemGroupEntries entries) {
-
-    }
-
-
-
-    private static void addToolsEntries(FabricItemGroupEntries entries) {
-    }
-
-    private static void addIngredientEntries(FabricItemGroupEntries entries) {
-
-    }
-
-    private static void addFoodEntries(FabricItemGroupEntries entries) {
-
     }
 }

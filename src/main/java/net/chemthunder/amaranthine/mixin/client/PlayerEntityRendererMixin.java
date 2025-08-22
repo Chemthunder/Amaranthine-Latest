@@ -28,7 +28,7 @@ public abstract class PlayerEntityRendererMixin extends LivingEntityRenderer<Abs
     )
     private static void crystallineLongsword(AbstractClientPlayerEntity player, Arm arm, CallbackInfoReturnable<BipedEntityModel.ArmPose> cir) {
         ItemStack stack = player.getStackInArm(arm);
-        if (stack.isOf(ModItems.AMARANTHINE_GREATSWORD) || stack.isOf(ModItems.CHRYSAOR)) {
+        if (stack.isOf(ModItems.AMARANTHINE_GREATSWORD)) {
             cir.setReturnValue(BipedEntityModel.ArmPose.CROSSBOW_CHARGE);
         }
     }
