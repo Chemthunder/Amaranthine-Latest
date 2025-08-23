@@ -13,8 +13,6 @@ public interface ModSounds {
     Map<SoundEvent, Identifier> SOUNDS = new LinkedHashMap<>();
 
     SoundEvent INSANITY_VOICES = create("ambient.insanity_voices");
-    SoundEvent BUTCHER_VANITY_OVERCOOKED = create("music.butcher_vanity_overcooked");
-    SoundEvent CLEAVER_KILL = create("item.cleaver_kill");
 
     private static SoundEvent create(String name) {
         SoundEvent soundEvent = SoundEvent.of(Amaranthine.id(name));

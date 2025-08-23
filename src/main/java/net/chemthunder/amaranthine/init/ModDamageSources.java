@@ -9,14 +9,9 @@ import net.minecraft.registry.RegistryKeys;
 
 public interface ModDamageSources {
     RegistryKey<DamageType> IMPALED = of("impaled");
-    RegistryKey<DamageType> CLEAVER = of("cleaver");
 
     static DamageSource impaled(LivingEntity entity) {
         return entity.getDamageSources().create(IMPALED);
-    }
-
-    static DamageSource cleaver(LivingEntity entity) {
-        return entity.getDamageSources().create(CLEAVER);
     }
 
 
